@@ -53,10 +53,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Workshops</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#venue">Venue</a></li> -->
-          <li><a class="nav-link scrollto" href="#hotels">Venue</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#hotels">Venue</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -88,13 +88,109 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0"><span>EVenture</span><br>Electrify the future</h1>
-      <p class="mb-4 pb-0">19-20 August, Amal Jyothi College of Engineering, Kanjirappally
-      </p>
+      <img src="assets/img/eventure_logo.png" alt="" title="">
+      <h1 id="dynamic-text" class="mb-4 pb-0 show">
+      </h1>
+      <p class="mb-4 pb-0" id="countdown"></p>
+      <!-- <p class="mb-4 pb-0" >
+      </p> -->
       <a href="assets/img/intro.mp4" class="glightbox play-btn mb-4"></a>
-      <a class="about-btn scrollto" href="https://www.yepdesk.com/eventure">Register Now</a>
+      <a class="about-btn scrollto" href="#buy-tickets">Register Now</a>
     </div>
-  </section><!-- End Hero Section -->
+  </section>
+
+  <script defer>
+    const dynamicTextElement = document.getElementById('dynamic-text');
+    const texts = ['Electrify the future', 'THIS AMAZING AUGUST', 'AT AMAL JYOTHI COLLEGE']; // Add more texts as needed
+    let currentTextIndex = 0;
+    const fadeInDuration = 400; // Duration in milliseconds for fade in
+    const fadeOutDuration = 400; // Duration in milliseconds for fade out
+    const waitDuration = 3000; // Duration in milliseconds for wait between fades
+    const targetDate = '2023-08-19';
+    const daysTillTarget = daysTillTargetDate(targetDate);
+
+    // ----+----+----+----+----+----+----+-- FUNCTIONS --+----+----+----+----+----+----+---- //
+
+    // fade in hero text
+    function fadeIn() {
+      let opacity = 0;
+      const increment = 0.1;
+
+      function increaseOpacity() {
+        opacity += increment;
+        dynamicTextElement.style.opacity = opacity.toString();
+        if (opacity < 1) {
+          setTimeout(increaseOpacity, fadeInDuration / 10);
+        }
+      }
+
+      increaseOpacity();
+    }
+
+    // fade out hero text
+    function fadeOut() {
+      let opacity = 1;
+      const decrement = 0.1;
+
+      function decreaseOpacity() {
+        opacity -= decrement;
+        dynamicTextElement.style.opacity = opacity.toString();
+        if (opacity > 0) {
+          setTimeout(decreaseOpacity, fadeOutDuration / 10);
+        }
+      }
+
+      decreaseOpacity();
+    }
+
+    // toggle hero text
+    function toggleText() {
+      fadeOut();
+      setTimeout(() => {
+        dynamicTextElement.innerHTML = texts[currentTextIndex];
+        fadeIn();
+        currentTextIndex = (currentTextIndex + 1) % texts.length;
+      }, fadeOutDuration);
+    }
+
+    // Get the number of days till the target date
+    function daysTillTargetDate(targetDate) {
+      const currentDate = new Date();
+      const targetDateFormat = new Date(targetDate);
+
+      // Get the time difference in milliseconds
+      const timeDifferenceMs = targetDateFormat - currentDate;
+
+      // Convert milliseconds to days
+      const daysDifference = Math.floor(timeDifferenceMs / (1000 * 60 * 60 * 24));
+
+      return daysDifference;
+    }
+
+    // Get the countdown text
+    function getCountdownText(days) {
+
+      if (days < 0) {
+        return "";
+      } else if (days == 0) {
+        return `IT'S HAPPENING TODAY`;
+      }
+      else if (days > 14) {
+        return days + ' DAYS TO GO';
+      }
+      else if (days <= 14) {
+        return 'IN JUST ' + days + ' DAYS';
+      }
+      else if (days == 1) {
+        return 'JUST ONE DAY TO GO';
+      }
+    }
+
+    toggleText(); // Call the function once initially
+    setInterval(toggleText, fadeOutDuration + waitDuration);
+    document.getElementById('countdown').innerHTML = `${getCountdownText(daysTillTarget)}`;
+  </script>
+  <!-- End Hero Section -->
 
   <main id="main">
 
@@ -118,6 +214,10 @@
             <p>Saturday & Sunday<br>19-20 August</p>
           </div>
         </div>
+        <div class="text-center ">
+          <a class="download-btn" target="_blank" href="assets/brochure.pdf">Download
+            Brochure</a>
+        </div>
       </div>
     </section><!-- End About Section -->
 
@@ -134,8 +234,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/workshops/ev-progress.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="#">Accelerating EV Progress</a></h3>
-                <p>&nbsp;</p>
+                <h3><a href="/turbocharge/">TURBO CHARGE</a></h3>
+                <p>Uniting Minds, Driving Innovation, and Transforming Tomorrow's Electric Mobility Landscape!</p>
                 <div class="social">
                   <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -150,8 +250,8 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/workshops/ev-wireframe.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="#">EV Battery design using MATLAB</a></h3>
-                <p>&nbsp;</p>
+                <h3><a href="/electro-evolution/">ELECTRO EVOLUTION</a></h3>
+                <p>Empowering Innovators to Shape the Future of Electric Vehicle Technology with MATLAB!</p>
                 <div class="social">
                   <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -163,11 +263,28 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/workshops/ev-toy.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="/elevate-ev/">ELEVATE EV</a></h3>
+                <p>Explore the World of Electric Vehicles and Ignite Your Passion for
+                  Sustainable Technology!</p>
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/workshops/ev-charging.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="#">Hands-on-Workshop on EV Charging</a></h3>
-                <p>&nbsp;</p>
+                <h3><a href="/battery-breakthrough/">BATTERY BREAKTHROUGH</a></h3>
+                <p>Experience the Art of Charging, Designing, and Integration in this Immersive Workshop!</p>
                 <div class="social">
                   <!-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -226,10 +343,11 @@
         </div>
       </div> -->
 
-    </section><!-- End Workshop Section -->
+    </section>
+    <!-- End Workshop Section -->
 
     <!-- ======= Speakers Section ======= -->
-    <section id="speakers">
+    <!-- <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Event Speakers</h2>
@@ -241,13 +359,13 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/pradeep.jpeg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Pradeep Kumar Keloth</a></h3>
+                <h3><a href="#speakers">Pradeep Kumar Keloth</a></h3>
                 <p>Former Head of Engineering for EV topic at Bosch India</p>
                 <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a> -->
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                   <p>Talk on accelerating EV Charging</p>
                 </div>
               </div>
@@ -257,13 +375,13 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/sreelakshmi.jpeg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Sreelakshmi M P</a></h3>
+                <h3><a href="#speakers">Sreelakshmi M P</a></h3>
                 <p>Asst. Professor Grade I, NIT CALICUT</p>
                 <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a> -->
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                   <p>Workshop on EV Charging</p>
                 </div>
               </div>
@@ -273,19 +391,19 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/jithin.jpeg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jithin K Jose</a></h3>
+                <h3><a href="#speakers">Jithin K Jose</a></h3>
                 <p>Secratary, IEEE IA/IE/PELS Jt Chapter Kerala</p>
                 <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a> -->
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                   <p>Membership development session</p>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-4 col-md-6">
+           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/1.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
@@ -300,7 +418,7 @@
               </div>
             </div>
           </div> -->
-          <!-- <div class="col-lg-4 col-md-6">
+    <!-- <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/1.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
@@ -315,7 +433,7 @@
               </div>
             </div>
           </div> -->
-          <!-- <div class="col-lg-4 col-md-6">
+    <!-- <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/1.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
@@ -331,9 +449,9 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div> 
 
-    </section><!-- End Speakers Section -->
+    </section>End Speakers Section -->
 
     <!-- ======= Schedule Section ======= -->
     <section id="schedule" class="section-with-bg">
@@ -342,7 +460,6 @@
           <h2>Event Schedule</h2>
           <p>Here is our event schedule</p>
         </div>
-
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
             <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">19 August 2023</a>
@@ -359,10 +476,8 @@
           necessitatibus voluptatem quis labore perspiciatis quia.</h3> -->
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
           <!-- Schdule Day 1 -->
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>09:30 AM</time></div>
               <div class="col-md-10">
@@ -370,7 +485,6 @@
                 <p>Speaker: Mr. Pradeep Kumar Keloth </p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
@@ -381,7 +495,6 @@
                 <p></p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:30 AM</time></div>
               <div class="col-md-10">
@@ -393,7 +506,6 @@
                   Technology</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:00 AM</time></div>
               <div class="col-md-10">
@@ -414,7 +526,6 @@
                 <!-- <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p> -->
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>Parallel event</time></div>
               <div class="col-md-10">
@@ -426,8 +537,6 @@
                 </p>
               </div>
             </div>
-
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:30 PM</time></div>
               <div class="col-md-10">
@@ -438,11 +547,6 @@
                 <!-- <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p> -->
               </div>
             </div>
-
-
-
-
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>01:30 AM</time></div>
               <div class="col-md-10">
@@ -539,17 +643,10 @@
             </div>
 
           </div>
-
-
-
-
-
-
           <!-- End Schdule Day 1 -->
 
           <!-- Schdule Day 2 -->
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>07:45 AM</time></div>
               <div class="col-md-10">
@@ -560,7 +657,6 @@
                 <!-- <p>Facere provident incidunt quos voluptas.</p> -->
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>08:30 AM</time></div>
               <div class="col-md-10">
@@ -572,7 +668,6 @@
                 <p>Speaker: Mr. Abhinav R</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>Parallel Event</time></div>
               <div class="col-md-10">
@@ -585,7 +680,6 @@
                 <p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>01:30 PM</time></div>
               <div class="col-md-10">
@@ -596,7 +690,6 @@
                 <!-- <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p> -->
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:30 PM</time></div>
               <div class="col-md-10">
@@ -607,7 +700,6 @@
                 <!-- <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p> -->
               </div>
             </div>
-
             <!-- <div class="row schedule-item">
               <div class="col-md-2"><time>04:00 PM</time></div>
               <div class="col-md-10">
@@ -618,13 +710,11 @@
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div> -->
-
           </div>
           <!-- End Schdule Day 2 -->
 
           <!-- Schdule Day 3 -->
           <!-- <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
@@ -635,7 +725,6 @@
                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
@@ -646,7 +735,6 @@
                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:00 AM</time></div>
               <div class="col-md-10">
@@ -657,7 +745,6 @@
                 <p>Facere provident incidunt quos voluptas.</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
@@ -668,7 +755,6 @@
                 <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>03:00 PM</time></div>
               <div class="col-md-10">
@@ -679,7 +765,6 @@
                 <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
               </div>
             </div>
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>04:00 PM</time></div>
               <div class="col-md-10">
@@ -690,48 +775,42 @@
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div>
-
           </div> -->
           <!-- End Schdule Day 2 -->
-
         </div>
-
       </div>
 
     </section><!-- End Schedule Section -->
 
     <!-- ======= Venue Section ======= -->
-    <!-- <section id="venue">
-
+    <section id="venue">
       <div class="container-fluid" data-aos="fade-up">
-
         <div class="section-header">
-          <h2>Event Venue</h2>
-          <p>Event venue location info and gallery</p>
+          <h2>EVent Venue</h2>
+          <!-- <p>Event venue location info and gallery</p> -->
         </div>
 
         <div class="row g-0">
           <div class="col-lg-6 venue-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Amal%20Jyothi%20College%20of%20Engineering+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8 position-relative">
-                <h3>Downtown Conference Center, New York</h3>
-                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit
-                  qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim
-                  nesciunt quia velit.</p>
+                <h3>Amal Jyothi College of Engineering (Autonomous)</h3>
+                <p>Kanjirappally, Koovappally P.O.<br>
+                  Kottayam Dt., Kerala<br>
+                  India. PIN - 686518</p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
-      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+      <!-- <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
         <div class="row g-0">
 
           <div class="col-lg-3 col-md-4">
@@ -799,82 +878,9 @@
           </div>
 
         </div>
-      </div>
-
-    </section> -->
-    <!-- End Venue Section -->
-
-    <!-- ======= Hotels Section ======= -->
-    <section id="hotels" class="section-with-bg">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Venue</h2>
-          <!-- <p>Venue  and Accomodation for Eventure Conclave</p> -->
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <!-- <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="assets/img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="assets/img/hotels/1.jpg" alt="Hotel 2" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 2</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill-half-full"></i>
-              </div>
-              <p>0.5 Mile from the Venue</p>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 align-items-center">
-            <div class="hotel">
-              <div class="hotel-img ">
-                <img src="assets/img/hotels/1.jpg" alt="Hotel 3" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 3</a></h3>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <p>0.6 Mile from the Venue</p>
-            </div>
-          </div> -->
-          <p class="text-center fs-4">
-            Venue: Amal Jyothi College Of Engineering, Kanjirapally
-          </p>
-          <p class="text-center fs-4">
-            Complimentary lodging will be offered at the college hostel for all event attendees
-          </p>
-        </div>
-      </div>
-
+      </div> -->
     </section>
-    <!-- End Hotels Section -->
+    <!-- End Venue Section -->
 
     <!-- ======= Gallery Section ======= -->
 
@@ -1101,7 +1107,6 @@
             and connect with the wider engineering community.</p>
 
         </div>
-
         <!-- <form method="POST" action="#">
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10 d-flex">
@@ -1110,7 +1115,6 @@
             </div>
           </div>
         </form> -->
-
       </div>
     </section><!-- End Subscribe Section -->
 
@@ -1127,8 +1131,8 @@
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center"> IAS MEMBERS </h5>
-                <h6 class="card-price text-center">₹529</h6>
+                <h5 class="card-title text-muted text-uppercase text-center"> IEE IAS MEMBERS </h5>
+                <h6 class="card-price text-center">529₹</h6>
                 <hr>
                 <!-- 
                 <ul class="fa-ul">
@@ -1152,7 +1156,7 @@
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">IEEE MEMBERS</h5>
-                <h6 class="card-price text-center">₹629</h6>
+                <h6 class="card-price text-center">629₹</h6>
                 <hr>
                 <!-- <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
@@ -1171,12 +1175,11 @@
               </div>
             </div>
           </div>
-          <!-- Pro Tier -->
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">NON IEEE </h5>
-                <h6 class="card-price text-center"> ₹729</h6>
+                <h6 class="card-price text-center">729₹</h6>
                 <!-- <hr>
                 <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
@@ -1196,13 +1199,13 @@
               </div>
             </div>
           </div>
-          <!-- New div added -->
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="card mb-5 mb-lg-0 ">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center"> PROFESSIONALS </h5>
-                <h6 class="card-price text-center">₹999</h6>
-                <!-- <hr>
+                <h6 class="card-price text-center">999₹</h6>
+                <hr>
+                <!-- 
                 <ul class="fa-ul">
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
@@ -1210,8 +1213,8 @@
                   <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
                   <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
                   <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul> -->
-                <hr>
+                </ul>
+                <hr> -->
                 <div class="text-center ">
                   <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"
                     data-ticket-type="standard-access"><a rel="stylesheet" class="text-white"
@@ -1262,7 +1265,6 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="section-bg">
-
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -1271,40 +1273,34 @@
         </div>
 
         <div class="row contact-info">
-
           <div class="col-md-4">
             <div class="contact-address">
               <!-- <i class="bi bi-geo-alt"></i> -->
               <h3>Adithi R Kumar </h3>
-              <address>Chairperson,IEEE IAS SBC AJCE </address>
-              <p><a href="tel:+155895548855">+91 8129897060</a></p>
-              <p><a href="mailto:info@example.com">adithirkumar@ieee.org</a></p>
+              <address>Chairperson - IEEE IAS SBC AJCE </address>
+              <p><a href="tel:+918129897060">+91 8129897060</a></p>
+              <p><a href="mailto:adithirkumar@ieee.org">adithirkumar@ieee.org</a></p>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-address">
               <!-- <i class="bi bi-geo-alt"></i> -->
-              <h3>Aadithyan S Philip</h3>
-              <address>Student Representative
-                IA/IE/PELS Jt Chapter Kerala</address>
-              <p><a href="tel:+155895548855">+91 91886 82039</a></p>
-              <p><a href="mailto:info@example.com">adithyansphilip777@ieee.org</a></p>
+              <h3>Adithyan S Philip</h3>
+              <address>Student Representative - IEEE IA/IE/PELS Jt. Chapter Kerala</address>
+              <p><a href="tel:+919188682039">+91 91886 82039</a></p>
+              <p><a href="mailto:adithyansphilip777@ieee.org">adithyansphilip777@ieee.org</a></p>
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="contact-address">
               <!-- <i class="bi bi-geo-alt"></i> -->
               <h3>Jeswin Joshy</h3>
-              <address>Technical Coordinator,IEEE IAS SBC AJCE</address>
-              <p><a href="tel:+155895548855">+91 81379 07222</a></p>
-              <p><a href="mailto:info@example.com">jeshwinjoshi@ieee.org</a></p>
+              <address>Technical Coordinator - IEEE IAS SBC AJCE</address>
+              <p><a href="tel:+918137907222">+91 81379 07222</a></p>
+              <p><a href="mailto:jeswinjoshy@ieee.org">jeswinjoshy@ieee.org</a></p>
             </div>
           </div>
-
         </div>
-
         <!-- <div class="form">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
@@ -1329,7 +1325,6 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div> -->
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -1340,25 +1335,24 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
+          <!-- <div class="col-lg-3 col-md-6 footer-info">
             <img src="assets/img/eventure_logo.png" alt="TheEvenet">
             <p><span style="color: #1bd766">EVenture</span> is a two-day conclave focused on electric vehicles. It
               brings together enthusiasts, experts, and students to discuss industry trends. The event features panel
               discussions, workshops, exhibitions, and cultural activities for an informative and enjoyable experience.
             </p>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-              <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li> -->
-              <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
