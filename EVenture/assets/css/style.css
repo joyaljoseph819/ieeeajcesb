@@ -1667,4 +1667,9 @@ h6 {
     padding: 5px;
     text-align: justify;
   }
+
+  #header #logo img {
+    max-height: 25px;
+  }
+
 }
