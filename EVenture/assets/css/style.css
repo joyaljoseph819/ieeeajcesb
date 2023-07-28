@@ -1662,4 +1662,14 @@ h6 {
   #hero img{
     width: 40%;
   }
+
+  #subscribe {
+    padding: 5px;
+    text-align: justify;
+  }
+
+  #header #logo img {
+    max-height: 25px;
+  }
+
 }
