@@ -37,14 +37,14 @@
         <div class="container-fluid container-xxl d-flex align-items-center">
 
             <div id="logo" class="me-auto">
-                <a href="index.html" class="scrollto"><img src="../assets/img/eventure_logo.png" alt="logo"
+                <a href="/EVenture" class="scrollto"><img src="../assets/img/eventure_logo.png" alt="logo"
                         title="EVenture"></a>
             </div>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <!-- adhilsalim - check href in github pages -->
-                    <li><a class="nav-link scrollto active" href="/EVenture#hero">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="/EVenture">Home</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- navbar -->
@@ -167,6 +167,26 @@
             list-style-type: none;
             text-align: justify;
             padding-bottom: 10px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .container h2 {
+                font-size: 20px;
+            }
+
+            .container h2 span {
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+
+            .container p {
+                font-size: 20px;
+            }
+
+            .container ul li {
+                font-size: 15px;
+                margin: -10px;
+            }
         }
     </style>
 </body>
