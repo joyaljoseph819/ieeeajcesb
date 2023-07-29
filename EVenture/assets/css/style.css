@@ -714,12 +714,15 @@ h6 {
 }
 
 #workshops .workshops {
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
 #workshops .workshops .details {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
