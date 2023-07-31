@@ -116,6 +116,23 @@ h6 {
   left: calc(50% - 25px);
 }
 
+.section-header1 {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: #1bd766;
+  bottom: 0;
+  left: calc(13% - 25px);
+}
+
 .section-header h2 {
   font-size: 36px;
   text-transform: uppercase;
@@ -132,7 +149,14 @@ h6 {
   font-weight: 500;
   color: #9195a2;
 }
-
+.my-p{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
 .section-with-bg {
   background-color: #f6f7fd;
 }
@@ -966,7 +990,7 @@ h6 {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #1bd766;
+  background-color: #18d869;
   color: #fff;
 }
 
@@ -1864,4 +1888,17 @@ h6 {
     max-height: 25px;
   }
 
+}
+
+
+@media (max-width: 720px) {
+  .logo-1{
+    height: 90px;
+    width: 240px;
+  }
+  .supporter-logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
