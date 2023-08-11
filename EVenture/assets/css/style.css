@@ -1598,6 +1598,21 @@ h6 {
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
+#highlight-ticket{
+  /* set border color to gradient of green and white */
+  border-color: #1bd766;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+#highlight-ticket p{
+  color: #1bd766;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
 #buy-tickets {
   padding: 60px 0;
 }
