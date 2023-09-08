@@ -80,3 +80,34 @@
 		}
 
 })(jQuery);
+
+// edit-s-4 start-modal 
+
+var openModalLinks = document.querySelectorAll(".open-modal");
+
+openModalLinks.forEach(function(link) {
+  link.onclick = function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+    var modalId = link.getAttribute("data-modal");
+    document.getElementById(modalId).style.display = "block";
+  };
+});
+
+
+// Code for closing the modals
+var closeModalButtons = document.querySelectorAll(".close");
+
+closeModalButtons.forEach(function(closeButton) {
+  closeButton.onclick = function() {
+    var modal = closeButton.closest(".modal");
+    modal.style.display = "none";
+  };
+});
+
+// Close the modals when clicking outside of them
+window.onclick = function(event) {
+  if (event.target.classList.contains("modal")) {
+    event.target.style.display = "none";
+  }
+};
+// edit-s-4 end-modal 

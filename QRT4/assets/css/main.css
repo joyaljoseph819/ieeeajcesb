@@ -3133,6 +3133,7 @@ button:disabled,
 .wrapper.style3 h5,
 .wrapper.style3 h6 {
 	color: #ffffff;
+	cursor: pointer;
 }
 
 .wrapper.style3 hr {
@@ -4100,4 +4101,64 @@ body.is-mobile.landing .wrapper.style4 {
 
 body.is-mobile.landing #footer {
 	background-color: #003044;
+}
+
+
+/* s-3 */
+
+/* The Modal (background) */
+.modal {
+	display: none; 
+	position: fixed; 
+	z-index: 1; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.9); 
+  }
+   #mybtn a{
+	text-decoration: none;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #000;
+	margin: 15% auto; 
+	padding: 20px;
+	border: 1px solid #f59800;
+	width: 80%; 
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #f59800;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+/* Media Query for Mobile View */
+@media screen and (max-width: 768px) {
+	.close {
+	  color: white;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+	.close:hover,
+	.close:focus {
+	  color: #f59800;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
 }
