@@ -291,7 +291,7 @@ function newsData() {
       name: "AGM",
       type: "Meeting",
       image: "../../events/images/2021/agm.jpeg",
-      description: "Annual General Meeting (AGM) 2021.",
+      description: "Annual General Meeting (AGM) 2021 hhhh.",
       date: "February/06/2021",
     },
     {
@@ -932,7 +932,18 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
     },
   ];
 
-  let current_events = events_2021;
+  let events_2023 = [
+    {
+      id: 95,
+      name: "AGM 2022",
+      type: "",
+      image: "../../events/images/2021/agm-2022.jpeg",
+      description: `Hola Amigos!✨<br>`,
+      date: "February/28/2022",
+    },
+  ];
+
+  let current_events = events_2023;
 
   let events = [
     ...events_2017,

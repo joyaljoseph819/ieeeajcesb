@@ -527,19 +527,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 m-auto">
-              <div class="module-title text-center">
+              <!-- <div class="module-title text-center">
                 <h2>Events</h2>
                 <p class="font-serif">Live & Upcoming Events</p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8 m-auto">
+            <!-- <div class="col-md-8 m-auto">
               <div class="module-title text-center">
 
                 <p class="font-serif">No live events</p>
               </div>
-            </div>
+            </div> -->
           </div>
           <!-- <div class="row">
                 <div class="col-lg-12 mb-5">
@@ -674,8 +674,16 @@
           <div class="row mb-3">
             <div class="col-md-8 m-auto mb-3">
               <div class="module-title text-center">
-                <h2>Events 2023</h2>
-                <p class="font-serif">Online Events</p>
+                <h2>Events
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                </h2>
+                <p class="font-serif">Events conducted during the year
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                </p>
               </div>
             </div>
           </div>
