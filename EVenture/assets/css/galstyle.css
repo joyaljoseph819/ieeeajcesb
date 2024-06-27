@@ -17,6 +17,7 @@
 .image img {
   height: auto;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 /* Responsive-ness for different screen-sizes */
