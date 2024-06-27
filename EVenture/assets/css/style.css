@@ -172,6 +172,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  
 }
 
 #header.header-scrolled,
@@ -507,6 +508,7 @@ h6 {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  top: -11px;
 }
 
 #video {
@@ -543,7 +545,7 @@ h6 {
   
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
   position: absolute;
@@ -551,7 +553,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 #hero .hero-container {
   position: absolute;
@@ -711,6 +713,7 @@ h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  top: -26px;
 }
 
 @media (min-width: 1024px) {
