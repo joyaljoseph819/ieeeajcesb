@@ -1328,6 +1328,12 @@ h6 {
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  #gallery {
+    padding: 0;
+  }
+}
+
 #gallery .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1363,6 +1369,8 @@ h6 {
     margin-top: 6px;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Sponsors Section
