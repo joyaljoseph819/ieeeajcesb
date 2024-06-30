@@ -6,6 +6,15 @@
   box-sizing: border-box;
 } */
 
+.gallery img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.2);
+}
+
+
 .gallery {
   column-count: 4;
   --webkit-column-count: 4;
