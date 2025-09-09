@@ -43,104 +43,104 @@ $(document).ready(function () {
     },
 
     // CS Chapter Events
-    {
-      chapter: "CS Chapter",
-      eventName: "Beyond Borders: Cracking M.Tech Abroad",
-      image: "./images/2025/cs-chapter/beyond-borders.jpg", // Placeholder path
-      eventDate: "June, 2025",
-      report: "A session offering guidance for students aspiring to pursue M.Tech degrees abroad.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "Beyond Borders: Cracking M.Tech Abroad",
+    //   image: "./images/2025/cs-chapter/bugs-to-bucks.jpg", // Placeholder path original was incorrect beyond-borders.jpg
+    //   eventDate: "June, 2025",
+    //   report: "A session offering guidance for students aspiring to pursue M.Tech degrees abroad.",
+    // },
     {
       chapter: "CS Chapter",
       eventName: "Bugs to Bucks",
-      image: "./images/2025/cs-chapter/bugs-to-bucks.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/bugs-to-bucks.jpg", 
       eventDate: "June, 2025",
       report: "An event focused on bug bounty hunting and ethical hacking.",
     },
     {
       chapter: "CS Chapter",
       eventName: "Cloud 9: From Zero to Deployment",
-      image: "./images/2025/cs-chapter/cloud9.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/cloud9.jpg", 
       eventDate: "June, 2025",
       report: "A workshop on cloud computing basics, from setup to deployment.",
     },
     {
       chapter: "CS Chapter",
       eventName: "Ctrl + Meme",
-      image: "./images/2025/cs-chapter/ctrl-meme.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/ctrl-meme.jpg", 
       eventDate: "June, 2025",
       report: "A lighthearted meme-making competition for a fun and creative break.",
     },
-    {
-      chapter: "CS Chapter",
-      eventName: "Did You Know?",
-      image: "./images/2025/cs-chapter/did-you-know.jpg", // Placeholder path
-      eventDate: "June, 2025",
-      report: "A tech trivia event to test knowledge of interesting facts in computer science.",
-    },
-    {
-      chapter: "CS Chapter",
-      eventName: "Emerging Tech Alert",
-      image: "./images/2025/cs-chapter/tech-alert.jpg", // Placeholder path
-      eventDate: "June, 2025",
-      report: "A seminar on the latest and most promising emerging technologies in the industry.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "Did You Know?",
+    //   image: "./images/2025/cs-chapter/ctrl-meme.jpg", // Placeholder path original was incorrect did-you-know.jpg
+    //   eventDate: "June, 2025",
+    //   report: "A tech trivia event to test knowledge of interesting facts in computer science.",
+    // },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "Emerging Tech Alert",
+    //   image: "./images/2025/cs-chapter/tech-alert.jpg", // Placeholder path no image!
+    //   eventDate: "June, 2025",
+    //   report: "A seminar on the latest and most promising emerging technologies in the industry.",
+    // },
     {
       chapter: "CS Chapter",
       eventName: "Guess_the_mess()",
-      image: "./images/2025/cs-chapter/guess-the-mess.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/guess-the-mess.jpg", 
       eventDate: "June, 2025",
       report: "A fun debugging challenge to find and fix errors in code snippets.",
     },
-    {
-      chapter: "CS Chapter",
-      eventName: "IEEE × Code: Hello World → Global Voice",
-      image: "./images/2025/cs-chapter/hello-world.jpg", // Placeholder path
-      eventDate: "June, 2025",
-      report: "An introductory coding workshop aimed at beginners, connecting coding with global impact.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "IEEE × Code: Hello World → Global Voice",
+    //   image: "./images/2025/cs-chapter/hello-world.jpg", // Placeholder path no image!
+    //   eventDate: "June, 2025",
+    //   report: "An introductory coding workshop aimed at beginners, connecting coding with global impact.",
+    // },
     {
       chapter: "CS Chapter",
       eventName: "120 WPM: Ctrl the Clock",
-      image: "./images/2025/cs-chapter/120wpm-ctrl-clock.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/120wpm-ctrl-clock.jpg", 
       eventDate: "July, 2025",
       report: "The first part of a typing speed and accuracy challenge for keyboard enthusiasts.",
     },
-    {
-      chapter: "CS Chapter",
-      eventName: "120 WPM: The Final Strike",
-      image: "./images/2025/cs-chapter/120wpm-final-strike.jpg", // Placeholder path
-      eventDate: "July, 2025",
-      report: "The final round of the typing competition, where speed and precision are put to the ultimate test.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "120 WPM: The Final Strike",
+    //   image: "./images/2025/cs-chapter/120wpm-final-strike.jpg", // Placeholder path no image!
+    //   eventDate: "July, 2025",
+    //   report: "The final round of the typing competition, where speed and precision are put to the ultimate test.",
+    // },
     {
       chapter: "CS Chapter",
       eventName: "Command the Room: Beyond the Résumé",
-      image: "./images/2025/cs-chapter/command-the-room.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/command-the-room.jpg", 
       eventDate: "July, 2025",
       report: "A soft skills workshop focused on presentation, communication, and interview techniques.",
     },
-    {
-      chapter: "CS Chapter",
-      eventName: "Councilium Imperium: CS Execom Meet July 2025",
-      image: "./images/2025/cs-chapter/execom-meet-july.jpg", // Placeholder path
-      eventDate: "July, 2025",
-      report: "A dedicated meeting for the Computer Society Execom members to plan and strategize upcoming events.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "Councilium Imperium: CS Execom Meet July 2025",
+    //   image: "./images/2025/cs-chapter/execom-meet-july.jpg", // Placeholder path no image!
+    //   eventDate: "July, 2025",
+    //   report: "A dedicated meeting for the Computer Society Execom members to plan and strategize upcoming events.",
+    // },
     {
       chapter: "CS Chapter",
       eventName: "From Dark Web to Dream Job",
-      image: "./images/2025/cs-chapter/dark-web-dream-job.jpg", // Placeholder path
+      image: "./images/2025/cs-chapter/dark-web-dream-job.jpg", 
       eventDate: "July, 2025",
       report: "An expert talk on cybersecurity and how skills from the field can lead to a successful career.",
     },
-    {
-      chapter: "CS Chapter",
-      eventName: "Trust Issues: Cybersecurity Beyond the Code",
-      image: "./images/2025/cs-chapter/trust-issues.jpg", // Placeholder path
-      eventDate: "August, 2025",
-      report: "A deep dive into the human element of cybersecurity and social engineering.",
-    },
+    // {
+    //   chapter: "CS Chapter",
+    //   eventName: "Trust Issues: Cybersecurity Beyond the Code",
+    //   image: "./images/2025/cs-chapter/trust-issues.jpg", // Placeholder path no image!
+    //   eventDate: "August, 2025",
+    //   report: "A deep dive into the human element of cybersecurity and social engineering.",
+    // },
 
     // IAS Chapter Events (unchanged)
     {
