@@ -142,50 +142,50 @@ $(document).ready(function () {
     //   report: "A deep dive into the human element of cybersecurity and social engineering.",
     // },
 
-    // IAS Chapter Events (unchanged)
-    {
-      chapter: "IAS Chapter",
-      eventName: "Industry Visit: Smart Factory",
-      image: "./images/2025/ias-chapter/industry-visit.jpg",
-      eventDate: "April, 2025",
-      report: "A field trip to a smart factory to understand the practical applications of industrial automation.",
-    },
+    // // IAS Chapter Events (unchanged)
+    // {
+    //   chapter: "IAS Chapter",
+    //   eventName: "Industry Visit: Smart Factory",
+    //   image: "./images/2025/ias-chapter/industry-visit.jpg",
+    //   eventDate: "April, 2025",
+    //   report: "A field trip to a smart factory to understand the practical applications of industrial automation.",
+    // },
 
-    // PES Chapter Events (unchanged)
-    {
-      chapter: "PES Chapter",
-      eventName: "Sustainable Power Grids",
-      image: "./images/2025/pes-chapter/power-grids.jpg",
-      eventDate: "February, 2025",
-      report: "A seminar on the challenges and future of integrating renewable energy into existing power grids.",
-    },
+    // // PES Chapter Events (unchanged)
+    // {
+    //   chapter: "PES Chapter",
+    //   eventName: "Sustainable Power Grids",
+    //   image: "./images/2025/pes-chapter/power-grids.jpg",
+    //   eventDate: "February, 2025",
+    //   report: "A seminar on the challenges and future of integrating renewable energy into existing power grids.",
+    // },
 
-    // SIGHT Group Events (unchanged)
-    {
-      chapter: "SIGHT Group",
-      eventName: "Tech for Social Good Hackathon",
-      image: "./images/2025/sight-group/hackathon.jpg",
-      eventDate: "June, 2025",
-      report: "A hackathon dedicated to creating technological solutions for community and humanitarian problems.",
-    },
+    // // SIGHT Group Events (unchanged)
+    // {
+    //   chapter: "SIGHT Group",
+    //   eventName: "Tech for Social Good Hackathon",
+    //   image: "./images/2025/sight-group/hackathon.jpg",
+    //   eventDate: "June, 2025",
+    //   report: "A hackathon dedicated to creating technological solutions for community and humanitarian problems.",
+    // },
 
-    // SSCS Chapter Events (unchanged)
-    {
-      chapter: "SSCS Chapter",
-      eventName: "VLSI Design Fundamentals",
-      image: "./images/2025/sscs-chapter/vlsidesign.jpg",
-      eventDate: "September, 2025",
-      report: "A foundational workshop on Very-Large-Scale Integration (VLSI) for electronics students.",
-    },
+    // // SSCS Chapter Events (unchanged)
+    // {
+    //   chapter: "SSCS Chapter",
+    //   eventName: "VLSI Design Fundamentals",
+    //   image: "./images/2025/sscs-chapter/vlsidesign.jpg",
+    //   eventDate: "September, 2025",
+    //   report: "A foundational workshop on Very-Large-Scale Integration (VLSI) for electronics students.",
+    // },
 
-    // WIE Group Events (unchanged)
-    {
-      chapter: "WIE Group",
-      eventName: "International Women's Day Celebration",
-      image: "./images/2025/wie-group/iwd.jpg",
-      eventDate: "March 8, 2025",
-      report: "An inspiring event celebrating the achievements of women in engineering and technology with guest speakers and awards.",
-    },
+    // // WIE Group Events (unchanged)
+    // {
+    //   chapter: "WIE Group",
+    //   eventName: "International Women's Day Celebration",
+    //   image: "./images/2025/wie-group/iwd.jpg",
+    //   eventDate: "March 8, 2025",
+    //   report: "An inspiring event celebrating the achievements of women in engineering and technology with guest speakers and awards.",
+    // },
   ];
 
   // Group events by chapter
