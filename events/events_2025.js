@@ -189,7 +189,7 @@ $(document).ready(function () {
     {
       chapter: "WIE Group",
       eventName: "She Rides, She Leads",
-      image: "./images/2025/wie-group/she-rides.png",
+      image: "./images/2025/wie-group/she-rides.PNG",
       eventDate: "March 8, 2025",
       report: "A dynamic event celebrating women’s empowerment and leadership, encouraging participants to embrace confidence and independence."
     },
