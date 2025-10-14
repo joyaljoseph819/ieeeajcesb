@@ -178,14 +178,28 @@ $(document).ready(function () {
     //   report: "A foundational workshop on Very-Large-Scale Integration (VLSI) for electronics students.",
     // },
 
-    // // WIE Group Events (unchanged)
-    // {
-    //   chapter: "WIE Group",
-    //   eventName: "International Women's Day Celebration",
-    //   image: "./images/2025/wie-group/iwd.jpg",
-    //   eventDate: "March 8, 2025",
-    //   report: "An inspiring event celebrating the achievements of women in engineering and technology with guest speakers and awards.",
-    // },
+    // WIE Group Events (unchanged)
+    {
+      chapter: "WIE Group",
+      eventName: "Pixel Perfect: Graphic Design Workshop",
+      image: "./images/2025/wie-group/pixel-perfect.jpg",
+      eventDate: "March 8, 2025",
+      report: "A hands-on workshop focused on creative graphic design techniques, empowering participants to bring their ideas to life through digital art."
+    },
+    {
+      chapter: "WIE Group",
+      eventName: "She Rides, She Leads",
+      image: "./images/2025/wie-group/she-rides.png",
+      eventDate: "March 8, 2025",
+      report: "A dynamic event celebrating women’s empowerment and leadership, encouraging participants to embrace confidence and independence."
+    },
+    {
+      chapter: "WIE Group",
+      eventName: "The Firewalled Garden",
+      image: "./images/2025/wie-group/firewalled-garden.jpg",
+      eventDate: "March 8, 2025",
+      report: "An insightful session exploring cybersecurity awareness and online safety, emphasizing the importance of digital protection in today’s world."
+    }
   ];
 
   // Group events by chapter
