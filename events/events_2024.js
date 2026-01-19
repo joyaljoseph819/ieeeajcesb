@@ -24,6 +24,12 @@ $(document).ready(function () {
       eventDate: "22nd September, 2024",
       report: "As part of LA GUERRE 2.0, IEEE IA/IE/PELS Jt. Chapter Kerala, in collaboration with IEEE IAS SBC AJCE and IEEE IAS SBC MACE, organised a webinar titled \"Envisioning Tomorrow: The Rise of IIoT in Smart Industries\". The session focused on the transformative impact of the Industrial Internet of Things (IIoT) on industries, highlighting key areas such as increased operational efficiency, predictive maintenance, enhanced data analytics, and supply chain optimisation.",
     },
+    {
+      eventName: "EVENTURE 2.0",
+      image: "./images/2024/eventure-2.0/img.png",
+      eventDate: "9th - 11th August, 2024",
+      report: "EVENTURE 2.0, a 3 day immersive EV conclave by IEEE IAS SBC AJCE, was conducted at Amal Jyothi College of Engineering on August 9, 10 and 11.",
+    },
   ];
 
   events.forEach((event) => {
