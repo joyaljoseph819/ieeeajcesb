@@ -54,6 +54,12 @@ $(document).ready(function () {
       eventDate: "2nd April, 2024",
       report: "The IAS chapter of IEEE SB AJCE hosted an enlightening talk session \"LinkedIn; Beyond Likes & Lurking”, featuring Abimel S B Kulumala, LinkedIn Community Top Voice and DevOps Intern at IEEE R10 Young Professionals. This session aimed to provide an actionable strategy for leveraging LinkedIn as a potential tool for career advancement, particularly for job seekers. The event was held on April 2nd, 2024, from 8:00 PM to 9:30 PM, via Microsoft Teams.",
     },
+    {
+      eventName: "TechTwist: Decode the Future",
+      image: "./images/2024/techtwist/img.png",
+      eventDate: "9th October, 2024",
+      report: "As part of LA GUERRE 2.0, IEEE IA/IE/PELS Jt. Chapter Kerala, in collaboration with IEEE IAS SBC AJCE and IEEE IAS SBC MACE, organised the TechTwist: Decode the Future crossword puzzle competition. Held on 09th October 2024, 8:30pm , the event challenged participants to test their knowledge of technology and gadgets in an engaging and fast-paced format. The competition, conducted online via Amuse Labs - Online Puzzle Maker , allowed participants to solve a crossword within 30 minutes.",
+    },
   ];
 
   events.forEach((event) => {
