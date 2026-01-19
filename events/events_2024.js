@@ -1,5 +1,17 @@
 $(document).ready(function () {
   let events = [
+    {
+      eventName: "Cyber Security in Power Systems",
+      image: "./images/2024/cyber-security/img.jpg",
+      eventDate: "18th - 19th May, 2024",
+      report: "The IAS chapter of IEEE SB AJCE hosted a talk session \"Cyber Security in Power Systems\" in collaboration with IEEE IAS SBC TKMCE, which was a remarkable success. This two-day session featured Dr RP Maheshwari, a retired professor of Electrical Engineering from IIT Roorkee, whose extensive knowledge and experience provided invaluable insights into the critical aspects of cyber security within power systems.",
+    },
+    {
+      eventName: "Electra Boost",
+      image: "./images/2024/electra-boost/img.png",
+      eventDate: "22nd April, 2024",
+      report: "A session featuring Vinu Sankar, Assistant Professor EEE, held at Idea Lab from 10am to 1pm.",
+    },
   ];
 
   events.forEach((event) => {
