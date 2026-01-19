@@ -6,6 +6,12 @@ $(document).ready(function () {
       eventDate: "18th - 19th May, 2024",
       report: "The IAS chapter of IEEE SB AJCE hosted a talk session \"Cyber Security in Power Systems\" in collaboration with IEEE IAS SBC TKMCE, which was a remarkable success. This two-day session featured Dr RP Maheshwari, a retired professor of Electrical Engineering from IIT Roorkee, whose extensive knowledge and experience provided invaluable insights into the critical aspects of cyber security within power systems.",
     },
+    {
+      eventName: "DronCon",
+      image: "./images/2024/droncon/img.png",
+      eventDate: "18th April, 2023",
+      report: "IAS Chapter of IEEE SB AJCE in collaboration with SOPC LAB conducted a Hands-on-workshop on 18th April 2023. The participants were given hands-on training on assembling and disassembling drones, followed by the calibration of sensors and testing of the motors. They were trained on how to control the drones, their speed, altitude, and direction.",
+    },
   ];
 
   events.forEach((event) => {
