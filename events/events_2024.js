@@ -78,6 +78,12 @@ $(document).ready(function () {
       eventDate: "12th August, 2024",
       report: "CS Society IEEE SB AJCE in collaboration with SJCET, CE Poonjar, TocH organized a debate preparation workshop 'Perspectives: A Debate Prep' as a part of Informatyka 4.0. The workshop/session was led by Prof. Nijo M Joseph. The session began with Prof. Nijo emphasizing the importance of public speaking. He encouraged everyone to introduce themselves using adjectives beginning with initial letters of their names. Further he guided each participant to describe each other in a creative way while maintaining a professional body language and eye contact. The workshop took a vibrant turn when the participants were given an opportunity to use the pointers they learned in an enthusiastic debate.",
     },
+    {
+      eventName: "From Campus to Code: Alumni Pathways to Success",
+      image: "./images/2024/campus-to-code/img.png",
+      eventDate: "19th July, 2024",
+      report: "IEEE CS SB AJCE conducted 'From Campus to Code: Alumni Pathways to Success', an exclusive talk session via Google Meet by Joel John Kandathil, an active IEEE member, dedicated volunteer, and shining alumnus. During the session, he gave an overview of his experience and work life at SOTI. He also gave a detailed explanation of the interview process and the correct methodology to be successful. He reminisced about his experience with IEEE and the benefits he gained from volunteering. Prioritizing career guidance, the session was highly interactive and helpful for participants.",
+    },
   ];
 
   events.forEach((event) => {
