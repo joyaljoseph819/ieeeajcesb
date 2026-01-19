@@ -48,6 +48,12 @@ $(document).ready(function () {
       eventDate: "20th September, 2024",
       report: "IEEE IAS SBC MACE, in collaboration with IEEE IAS SBC AJCE, hosted the IGNITE Membership Development Session as part of LA GUERRE on 20th September 2024 at 7:30 PM via Google Meet. The session, attended by 41 participants, aimed to inspire engagement in the Industrial Applications Society (IAS), Industrial Electronics Society (IES), and Power Electronics Society (PELS), promoting professional growth and technical passion. The event featured two speakers: Miss Sreepriya S, Newsletter Editor of IEEE IA/IE/PELS Joint Chapter Kerala, and Miss Ann Mary Roy, Malabar Hub Student Representative (HSR), IEEE IA/IE/PELS Joint Chapter Kerala.",
     },
+    {
+      eventName: "LinkedIn: Beyond Likes & Lurking",
+      image: "./images/2024/linkedin-session/img.png",
+      eventDate: "2nd April, 2024",
+      report: "The IAS chapter of IEEE SB AJCE hosted an enlightening talk session \"LinkedIn; Beyond Likes & Lurking”, featuring Abimel S B Kulumala, LinkedIn Community Top Voice and DevOps Intern at IEEE R10 Young Professionals. This session aimed to provide an actionable strategy for leveraging LinkedIn as a potential tool for career advancement, particularly for job seekers. The event was held on April 2nd, 2024, from 8:00 PM to 9:30 PM, via Microsoft Teams.",
+    },
   ];
 
   events.forEach((event) => {
