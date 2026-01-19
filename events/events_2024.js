@@ -66,6 +66,12 @@ $(document).ready(function () {
       eventDate: "2nd - 3rd June, 2023",
       report: "The IAS chapter of IEEE SB AJCE hosted a hands-on VEGA Processor EcoSystem on 2nd and 3rd June. The workshop kicked off with an overview of Vega processors, highlighting key features. This initial phase likely laid the groundwork for participants, ensuring they had a solid conceptual understanding before delving into hands-on activities. The hands-on session that followed the introduction provided participants with a unique opportunity to work directly with Vega processors in a controlled lab environment.",
     },
+    {
+      eventName: "AGM 2024",
+      image: "./images/2024/agm-2024/img.png",
+      eventDate: "19th March, 2024",
+      report: "IEEE SB AJCE’s Annual General Meeting was conducted on 19th March 2024 at Amal Jyothi College of Engineering. The meeting featured presidential addresses by college officials and esteemed chief guests. Certificates and awards were distributed to the executive committee and subcommittee members to honor their contributions. The event included a cake-cutting ceremony, report presentations from various chapters and affinity groups, the introduction of the new Executive Committee for 2024, and an experience-sharing session by outgoing members.",
+    },
   ];
 
   events.forEach((event) => {
