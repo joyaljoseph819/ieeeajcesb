@@ -18,6 +18,12 @@ $(document).ready(function () {
       eventDate: "22nd April, 2024",
       report: "ElectraBoost, A Low-Budget Portable Inverter Making Workshop organised as part of Azure 2024-Inter College Techno-Cultural Fest by IEEE IAS SBC AJCE in collaboration with IEEE PES SBC AJCE, aimed to introduce participants to the construction and functionality of a 200W 50Hz inverter.",
     },
+    {
+      eventName: "Envisioning Tomorrow",
+      image: "./images/2024/envisioning-tomorrow/img.png",
+      eventDate: "22nd September, 2024",
+      report: "As part of LA GUERRE 2.0, IEEE IA/IE/PELS Jt. Chapter Kerala, in collaboration with IEEE IAS SBC AJCE and IEEE IAS SBC MACE, organised a webinar titled \"Envisioning Tomorrow: The Rise of IIoT in Smart Industries\". The session focused on the transformative impact of the Industrial Internet of Things (IIoT) on industries, highlighting key areas such as increased operational efficiency, predictive maintenance, enhanced data analytics, and supply chain optimisation.",
+    },
   ];
 
   events.forEach((event) => {
