@@ -30,6 +30,12 @@ $(document).ready(function () {
       eventDate: "9th - 11th August, 2024",
       report: "EVENTURE 2.0, a 3 day immersive EV conclave by IEEE IAS SBC AJCE, was conducted at Amal Jyothi College of Engineering on August 9, 10 and 11.",
     },
+    {
+      eventName: "EVENTURE",
+      image: "./images/2023/eventure/img.jpg",
+      eventDate: "19th - 20th August, 2023",
+      report: "IEEE IAS SBC in association with IEEE IA/IE/PELS Jt. Chapter organize the most electrifying EV Conclave, Eventure. Eventure was held on 19th to 20th August 2023 at Amal Jyothi College of engineering.",
+    },
   ];
 
   events.forEach((event) => {
