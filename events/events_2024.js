@@ -72,6 +72,12 @@ $(document).ready(function () {
       eventDate: "19th March, 2024",
       report: "IEEE SB AJCE’s Annual General Meeting was conducted on 19th March 2024 at Amal Jyothi College of Engineering. The meeting featured presidential addresses by college officials and esteemed chief guests. Certificates and awards were distributed to the executive committee and subcommittee members to honor their contributions. The event included a cake-cutting ceremony, report presentations from various chapters and affinity groups, the introduction of the new Executive Committee for 2024, and an experience-sharing session by outgoing members.",
     },
+    {
+      eventName: "Perspectives: A Debate Prep",
+      image: "./images/2024/debate-prep/img.png",
+      eventDate: "12th August, 2024",
+      report: "CS Society IEEE SB AJCE in collaboration with SJCET, CE Poonjar, TocH organized a debate preparation workshop 'Perspectives: A Debate Prep' as a part of Informatyka 4.0. The workshop/session was led by Prof. Nijo M Joseph. The session began with Prof. Nijo emphasizing the importance of public speaking. He encouraged everyone to introduce themselves using adjectives beginning with initial letters of their names. Further he guided each participant to describe each other in a creative way while maintaining a professional body language and eye contact. The workshop took a vibrant turn when the participants were given an opportunity to use the pointers they learned in an enthusiastic debate.",
+    },
   ];
 
   events.forEach((event) => {
