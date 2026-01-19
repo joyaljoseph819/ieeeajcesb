@@ -42,6 +42,12 @@ $(document).ready(function () {
       eventDate: "7th July, 2024",
       report: "On 7th July 2024, from 8:30 PM to 8:45 PM, IAS SBC IEEE SB AJCE hosted the EVisdom - Electric Vehicle Quiz on Quizizz. The event was a blast, with lots of participants joining in to test their knowledge about electric vehicles (EVs) and sustainability.",
     },
+    {
+      eventName: "IGNITE",
+      image: "./images/2024/ignite/img.png",
+      eventDate: "20th September, 2024",
+      report: "IEEE IAS SBC MACE, in collaboration with IEEE IAS SBC AJCE, hosted the IGNITE Membership Development Session as part of LA GUERRE on 20th September 2024 at 7:30 PM via Google Meet. The session, attended by 41 participants, aimed to inspire engagement in the Industrial Applications Society (IAS), Industrial Electronics Society (IES), and Power Electronics Society (PELS), promoting professional growth and technical passion. The event featured two speakers: Miss Sreepriya S, Newsletter Editor of IEEE IA/IE/PELS Joint Chapter Kerala, and Miss Ann Mary Roy, Malabar Hub Student Representative (HSR), IEEE IA/IE/PELS Joint Chapter Kerala.",
+    },
   ];
 
   events.forEach((event) => {
