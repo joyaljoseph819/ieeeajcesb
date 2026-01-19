@@ -36,6 +36,12 @@ $(document).ready(function () {
       eventDate: "19th - 20th August, 2023",
       report: "IEEE IAS SBC in association with IEEE IA/IE/PELS Jt. Chapter organize the most electrifying EV Conclave, Eventure. Eventure was held on 19th to 20th August 2023 at Amal Jyothi College of engineering.",
     },
+    {
+      eventName: "EVisdom - Electric Vehicle Quiz",
+      image: "./images/2024/evisdom/img.png",
+      eventDate: "7th July, 2024",
+      report: "On 7th July 2024, from 8:30 PM to 8:45 PM, IAS SBC IEEE SB AJCE hosted the EVisdom - Electric Vehicle Quiz on Quizizz. The event was a blast, with lots of participants joining in to test their knowledge about electric vehicles (EVs) and sustainability.",
+    },
   ];
 
   events.forEach((event) => {
