@@ -60,6 +60,12 @@ $(document).ready(function () {
       eventDate: "9th October, 2024",
       report: "As part of LA GUERRE 2.0, IEEE IA/IE/PELS Jt. Chapter Kerala, in collaboration with IEEE IAS SBC AJCE and IEEE IAS SBC MACE, organised the TechTwist: Decode the Future crossword puzzle competition. Held on 09th October 2024, 8:30pm , the event challenged participants to test their knowledge of technology and gadgets in an engaging and fast-paced format. The competition, conducted online via Amuse Labs - Online Puzzle Maker , allowed participants to solve a crossword within 30 minutes.",
     },
+    {
+      eventName: "VEGA PROCESSOR WORKSHOP",
+      image: "./images/2024/vega-processor/img.png",
+      eventDate: "2nd - 3rd June, 2023",
+      report: "The IAS chapter of IEEE SB AJCE hosted a hands-on VEGA Processor EcoSystem on 2nd and 3rd June. The workshop kicked off with an overview of Vega processors, highlighting key features. This initial phase likely laid the groundwork for participants, ensuring they had a solid conceptual understanding before delving into hands-on activities. The hands-on session that followed the introduction provided participants with a unique opportunity to work directly with Vega processors in a controlled lab environment.",
+    },
   ];
 
   events.forEach((event) => {
