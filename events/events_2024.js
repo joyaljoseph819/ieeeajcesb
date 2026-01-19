@@ -12,6 +12,12 @@ $(document).ready(function () {
       eventDate: "18th April, 2023",
       report: "IAS Chapter of IEEE SB AJCE in collaboration with SOPC LAB conducted a Hands-on-workshop on 18th April 2023. The participants were given hands-on training on assembling and disassembling drones, followed by the calibration of sensors and testing of the motors. They were trained on how to control the drones, their speed, altitude, and direction.",
     },
+    {
+      eventName: "Electra Boost",
+      image: "./images/2024/electra-boost/img.png",
+      eventDate: "22nd April, 2024",
+      report: "ElectraBoost, A Low-Budget Portable Inverter Making Workshop organised as part of Azure 2024-Inter College Techno-Cultural Fest by IEEE IAS SBC AJCE in collaboration with IEEE PES SBC AJCE, aimed to introduce participants to the construction and functionality of a 200W 50Hz inverter.",
+    },
   ];
 
   events.forEach((event) => {
