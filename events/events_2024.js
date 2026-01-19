@@ -84,6 +84,12 @@ $(document).ready(function () {
       eventDate: "19th July, 2024",
       report: "IEEE CS SB AJCE conducted 'From Campus to Code: Alumni Pathways to Success', an exclusive talk session via Google Meet by Joel John Kandathil, an active IEEE member, dedicated volunteer, and shining alumnus. During the session, he gave an overview of his experience and work life at SOTI. He also gave a detailed explanation of the interview process and the correct methodology to be successful. He reminisced about his experience with IEEE and the benefits he gained from volunteering. Prioritizing career guidance, the session was highly interactive and helpful for participants.",
     },
+    {
+      eventName: "Infoshare",
+      image: "./images/2024/infoshare/img1.png",
+      eventDate: "2024",
+      report: "IEEE Computer Society SB AJCE in collaboration with the IEEE SB Sahrdaya organized an exciting Infoshare event on the social media platform Instagram. Different spheres of Computer Science and its aspects and utility was shared globally in an enticing manner. IEEE Computer Society SB AJCE sought to spread awareness on Cybersecurity underlying protection of data, Blockchain which is essential for cryptocurrency systems and Full Stack Web Development dealing with the front end and back end of websites. The event was a signature of the cordiality between the student branches across our section.",
+    },
   ];
 
   events.forEach((event) => {
