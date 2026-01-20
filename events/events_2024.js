@@ -132,6 +132,12 @@ $(document).ready(function () {
       eventDate: "20th August, 2024",
       report: "On 20th August 2024, IEEE SIGHT AJCE, in collaboration with IEEE SIGHT TKMCE, hosted the first session of the \"CHIP TO CAREERS\" series, featuring Rony Alex Thomas, SoC Design Validation Engineer at Intel Corporation. The session covered trends in the semiconductor industry and career guidance. Attendees gained valuable insights through an interactive Q&A session. The event successfully engaged aspiring students.",
     },
+    {
+      eventName: "RUDHIRAMRITHAM",
+      image: "./images/2024/rudhiramritham/img.png",
+      eventDate: "23rd August, 2024",
+      report: "The IEEE SIGHT SB AJCE, in collaboration with the National Service Scheme (NSS) AJCE, successfully organized a Blood Donation Program that brought together participants from 10 colleges across Kottayam, Alapuzha, and Idukki regions. The event saw great participation, with Kottayam Medical College managing the blood donation process and accommodating up to 120 donors. A dedicated team of 10 NSS volunteers and 4 IEEE volunteers ensured the smooth flow of the event. All volunteers and participants were provided with food. The program was a meaningful success, reflecting a strong sense of community and service.",
+    },
   ];
 
   events.forEach((event) => {
