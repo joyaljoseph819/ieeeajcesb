@@ -90,6 +90,12 @@ $(document).ready(function () {
       eventDate: "2024",
       report: "IEEE Computer Society SB AJCE in collaboration with the IEEE SB Sahrdaya organized an exciting Infoshare event on the social media platform Instagram. Different spheres of Computer Science and its aspects and utility was shared globally in an enticing manner. IEEE Computer Society SB AJCE sought to spread awareness on Cybersecurity underlying protection of data, Blockchain which is essential for cryptocurrency systems and Full Stack Web Development dealing with the front end and back end of websites. The event was a signature of the cordiality between the student branches across our section.",
     },
+    {
+      eventName: "ASTROQUEST: The Space Week Quiz",
+      image: "./images/2024/astroquest/img.png",
+      eventDate: "9th October, 2024",
+      report: "IEEE Computer Society SB AJCE in collaboration with the IEEE SB SJCET organized an exciting ASTROQUEST: The Space Week Quiz event on the quiz platform Quizizz celebrating the Space week. This event sought to enlighten and entice the participants to the mysteries of space and trigger their interest in astrophysics. IEEE Computer Society SBC AJCE along with IEEE Computer Society SBC SJCET sought to spread awareness on space science which is essential for increasing general knowledge and sparking an interest in our physical world thus finding its secrets. The event was a signature of the cordiality between the student branches across our section.",
+    },
   ];
 
   events.forEach((event) => {
