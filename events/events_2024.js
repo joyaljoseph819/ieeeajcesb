@@ -114,6 +114,12 @@ $(document).ready(function () {
       eventDate: "21st September, 2024",
       report: "This info session is designed to introduce students to the exciting world of competitive programming. It will provide a comprehensive overview of upcoming coding competitions, including key strategies for improving coding efficiency, problem-solving techniques, and insights into the types of challenges that participants may encounter. Participants will also learn about various platforms like HackerRank, LeetCode, and many more to gain experience solving coding problems, and how to utilize them for preparation. This session will serve as a prelude to the International coding competition scheduled to take place under the upcoming IEEE Xtreme 18.0 on October 26th. By attending this session, students will gain a better understanding of how to approach competitive coding, network with peers, and prepare themselves to participate in and excel in future competitions.",
     },
+    {
+      eventName: "DELVING INTO IEEE SIGHT",
+      image: "./images/2024/delving-into-ieee-sight/img.png",
+      eventDate: "8th May, 2024",
+      report: "The SIGHT Technical Group of IEEE SB AJCE conducted an online session \"DELVING INTO IEEE SIGHT” featured an introduction to IEEE SIGHT providing an exploration of its purpose in utilizing technology for humanitarian causes. Our esteemed speaker, Ms. Adithya Rajeev, R&D Team Lead, IEEE Kerala Section shared her valuable expertise in research and development as well as project management. The event was successfully conducted with 71 participants.",
+    },
   ];
 
   events.forEach((event) => {
