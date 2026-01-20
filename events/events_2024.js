@@ -52,7 +52,7 @@ $(document).ready(function () {
       eventName: "LinkedIn: Beyond Likes & Lurking",
       image: "./images/2024/linkedin-session/img.png",
       eventDate: "2nd April, 2024",
-      report: "The IAS chapter of IEEE SB AJCE hosted an enlightening talk session \"LinkedIn; Beyond Likes & Lurking”, featuring Abimel S B Kulumala, LinkedIn Community Top Voice and DevOps Intern at IEEE R10 Young Professionals. This session aimed to provide an actionable strategy for leveraging LinkedIn as a potential tool for career advancement, particularly for job seekers. The event was held on April 2nd, 2024, from 8:00 PM to 9:30 PM, via Microsoft Teams.",
+      report: "The webinar \"LinkedIn: Beyond Likes & Lurking\" proved to be a valuable session. Attendees gained actionable strategies to enhance their LinkedIn presence, optimizing their profiles and fostering meaningful connections to propel their careers forward. The event facilitated insightful discussions on leveraging social media for professional growth, leaving participants equipped and inspired to take proactive steps in their career journeys.",
     },
     {
       eventName: "TechTwist: Decode the Future",
