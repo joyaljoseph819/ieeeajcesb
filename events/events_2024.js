@@ -126,6 +126,12 @@ $(document).ready(function () {
       eventDate: "15th February, 2025",
       report: "On February 15, 2025, IEEE SIGHT SB AJCE organized a one-day camp at Mundiyeruma, Kattappana, with 33 student participants. The event aimed to bridge theory and real-world challenges through household surveys, identifying key issues like limited technology access and resource management. Participants proposed engineering-driven solutions and explored funding opportunities via IEEE HTB SIGHT \"Tech4Good.\" As part of the SIGHT Group Activity Initiative, we utilized $200 to support the camp activities. The camp enhanced problem-solving skills, social responsibility, and innovation, contributing to sustainable development and impactful community solutions.",
     },
+    {
+      eventName: "CHIP TO CAREERS",
+      image: "./images/2024/chip-to-careers/img.png",
+      eventDate: "20th August, 2024",
+      report: "On 20th August 2024, IEEE SIGHT AJCE, in collaboration with IEEE SIGHT TKMCE, hosted the first session of the \"CHIP TO CAREERS\" series, featuring Rony Alex Thomas, SoC Design Validation Engineer at Intel Corporation. The session covered trends in the semiconductor industry and career guidance. Attendees gained valuable insights through an interactive Q&A session. The event successfully engaged aspiring students.",
+    },
   ];
 
   events.forEach((event) => {
