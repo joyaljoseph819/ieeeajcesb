@@ -120,6 +120,12 @@ $(document).ready(function () {
       eventDate: "8th May, 2024",
       report: "The SIGHT Technical Group of IEEE SB AJCE conducted an online session \"DELVING INTO IEEE SIGHT” featured an introduction to IEEE SIGHT providing an exploration of its purpose in utilizing technology for humanitarian causes. Our esteemed speaker, Ms. Adithya Rajeev, R&D Team Lead, IEEE Kerala Section shared her valuable expertise in research and development as well as project management. The event was successfully conducted with 71 participants.",
     },
+    {
+      eventName: "ECLIPSE 3.0",
+      image: "./images/2024/eclipse/img.png",
+      eventDate: "15th February, 2025",
+      report: "On February 15, 2025, IEEE SIGHT SB AJCE organized a one-day camp at Mundiyeruma, Kattappana, with 33 student participants. The event aimed to bridge theory and real-world challenges through household surveys, identifying key issues like limited technology access and resource management. Participants proposed engineering-driven solutions and explored funding opportunities via IEEE HTB SIGHT \"Tech4Good.\" As part of the SIGHT Group Activity Initiative, we utilized $200 to support the camp activities. The camp enhanced problem-solving skills, social responsibility, and innovation, contributing to sustainable development and impactful community solutions.",
+    },
   ];
 
   events.forEach((event) => {
