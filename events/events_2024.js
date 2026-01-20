@@ -96,6 +96,12 @@ $(document).ready(function () {
       eventDate: "9th October, 2024",
       report: "IEEE Computer Society SB AJCE in collaboration with the IEEE SB SJCET organized an exciting ASTROQUEST: The Space Week Quiz event on the quiz platform Quizizz celebrating the Space week. This event sought to enlighten and entice the participants to the mysteries of space and trigger their interest in astrophysics. IEEE Computer Society SBC AJCE along with IEEE Computer Society SBC SJCET sought to spread awareness on space science which is essential for increasing general knowledge and sparking an interest in our physical world thus finding its secrets. The event was a signature of the cordiality between the student branches across our section.",
     },
+    {
+      eventName: "CodeCrusade: Forging Argo",
+      image: "./images/2024/codecrusade/img.png",
+      eventDate: "5th October, 2024",
+      report: "This session is intended for participants from all walks of life, who are keen on gaining insight into competitive programming, the basic step being knowing which platform and which programming language to use. Ranging on the expertise of the interested, specific platforms and languages are suggested, and adding to that, a detailed explanation and portrayal of setting up each platform including LeetCode and Hackerrank are included, along with the additional functionalities. Neil Sen Easow will be the speaker for this event and he is entrusted with addressing each of their inquiries and ensuring every participant has a smooth sailing in this endeavor. This event marks the first and foundation of the CodeCrusade trilogy an initiative celebrating October Coding Fiesta and a preparation for IEEEXtreme 18.0 to be held on 26th October 2024. Each session cherishes a hope to strengthen the faith of each participant both in themselves and in turn in IEEE CS SBC AJCE. This is both the fruition of a promise and a beacon of many more to come and bloom.",
+    },
   ];
 
   events.forEach((event) => {
