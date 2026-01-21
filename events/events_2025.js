@@ -191,14 +191,14 @@ $(document).ready(function () {
     //   report: "A deep dive into the human element of cybersecurity and social engineering.",
     // },
 
-    // // IAS Chapter Events (unchanged)
-    // {
-    //   chapter: "IAS Chapter",
-    //   eventName: "Industry Visit: Smart Factory",
-    //   image: "./images/2025/ias-chapter/industry-visit.jpg",
-    //   eventDate: "April, 2025",
-    //   report: "A field trip to a smart factory to understand the practical applications of industrial automation.",
-    // },
+    // IAS Chapter Events
+    {
+      chapter: "IAS Chapter",
+      eventName: "Beyond the Stars: An Indian Space Odyssey",
+      image: "./images/2025/ias-chapter/beyond-the-stars.png",
+      eventDate: "July 16, 2025",
+      report: "This virtual session, led by Mr. Rojan Mathew (Scientist/Engineer at VSSC), explored the historical evolution and future goals of India's space program. The talk covered ISRO's landmark achievements, current projects, and emerging technologies in aerospace engineering. A key highlight was the guidance on career pathways at ISRO, offering BTech students practical advice on qualifications and preparation strategies for the space sector.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
