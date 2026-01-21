@@ -109,9 +109,9 @@ $(document).ready(function () {
     {
       chapter: "CS Chapter",
       eventName: "Cloud 9: From Zero to Deployment",
-      image: "./images/2025/cs-chapter/cloud9.jpg",
-      eventDate: "June, 2025",
-      report: "A workshop on cloud computing basics, from setup to deployment.",
+      image: "./images/2025/cs-chapter/cloud9.png",
+      eventDate: "June 17, 2025",
+      report: "Part of the INFORMATYKA 5.0 initiative, this session by Ms. Nayana S (Software Engineer at SADA & 3x Google Cloud Certified) provided a structured roadmap for cloud computing. Attended by over 105 participants, the talk covered essential tools, certifications, and deployment strategies. Ms. Nayana also highlighted the role of IEEE in her career growth, offering practical advice for students to excel in the cloud domain.",
     },
     {
       chapter: "CS Chapter",
