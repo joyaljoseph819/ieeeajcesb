@@ -227,6 +227,13 @@ $(document).ready(function () {
       eventDate: "August 30, 2025",
       report: "TECHNOQUEST, a collaborative quiz competition by IEEE SB AJCE, MACE, and CUSAT, engaged over 100 participants in challenging rounds like \"Tech Logo Quiz\" and \"Guess the Gadget.\" The event rewarded both speed and accuracy, fostering a thrilling and competitive atmosphere on the Wayround platform. This initiative highlighted the collective spirit of Cluster 10 student branches in promoting intellectual growth and teamwork within the IEEE community.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: Chess Mastery - Like a Grandmaster",
+      image: "./images/2025/ias-chapter/chess-mastery.png",
+      eventDate: "September 29, 2025",
+      report: "As the inaugural session of SkillSprint 2025, this workshop led by Aby Mathew (S3 IT) introduced chess as a strategic tool for decision-making. Participants explored fundamental opening strategies, piece coordination, and foresight while discovering parallels between chess and real-life problem-solving. The interactive session combined theory with live game analysis, effectively setting a tone of engaging and impactful learning for the series.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
