@@ -238,16 +238,16 @@ $(document).ready(function () {
     {
       chapter: "WIE Group",
       eventName: "She Rides, She Leads",
-      image: "./images/2025/wie-group/she-rides.PNG",
+      image: "./images/2025/wie-group/she-rides.png",
       eventDate: "March 8, 2025",
-      report: "A dynamic event celebrating women’s empowerment and leadership, encouraging participants to embrace confidence and independence."
+      report: "Starting from Amal Jyothi College, this drug-awareness rally covered campus and surrounding areas with participants advocating for a drug-free society. The event featured inspiring speeches from faculty and the Women’s Cell on the dangers of substance abuse. Recognizing extraordinary women with mementos, the session concluded with a symbolic balloon release, marking a collective commitment to a healthy, drug-free future.",
     },
     {
       chapter: "WIE Group",
       eventName: "The Firewalled Garden",
-      image: "./images/2025/wie-group/firewalled-garden.jpg",
-      eventDate: "March 8, 2025",
-      report: "An insightful session exploring cybersecurity awareness and online safety, emphasizing the importance of digital protection in today’s world."
+      image: "./images/2025/wie-group/firewalled-garden.png",
+      eventDate: "June 25 - July 5, 2025",
+      report: "Launched as part of IEEE WIE Day 2025 celebrations, this poster designing competition themed \"Pioneering Safe Cyberspace\" aimed to raise awareness about cybersecurity. Participants created visual stories representing how technology and vigilance work hand-in-hand for digital security. The event concluded with the recognition of an outstanding design for its aesthetic clarity and alignment with the goal of securing cyberspace.",
     }
   ];
 
