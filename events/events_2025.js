@@ -220,6 +220,13 @@ $(document).ready(function () {
       eventDate: "August 23, 2025",
       report: "Organized collaboratively by IEEE SB AJCE, MACE, and CUSAT, this session aimed to inspire students about the benefits of IEEE membership and volunteering. Speakers Sivapriya Sivadasan and Aleena Mathews shared their personal journeys, highlighting how IEEE involvement builds leadership, networking, and technical skills. The interactive discussion covered grants and professional growth opportunities, motivating 55 attendees to take active roles within IEEE societies.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "TECHNOQUEST Quiz Competition",
+      image: "./images/2025/ias-chapter/technoquest.png",
+      eventDate: "August 30, 2025",
+      report: "TECHNOQUEST, a collaborative quiz competition by IEEE SB AJCE, MACE, and CUSAT, engaged over 100 participants in challenging rounds like \"Tech Logo Quiz\" and \"Guess the Gadget.\" The event rewarded both speed and accuracy, fostering a thrilling and competitive atmosphere on the Wayround platform. This initiative highlighted the collective spirit of Cluster 10 student branches in promoting intellectual growth and teamwork within the IEEE community.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
