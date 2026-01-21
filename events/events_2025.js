@@ -199,6 +199,13 @@ $(document).ready(function () {
       eventDate: "July 16, 2025",
       report: "This virtual session, led by Mr. Rojan Mathew (Scientist/Engineer at VSSC), explored the historical evolution and future goals of India's space program. The talk covered ISRO's landmark achievements, current projects, and emerging technologies in aerospace engineering. A key highlight was the guidance on career pathways at ISRO, offering BTech students practical advice on qualifications and preparation strategies for the space sector.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "Career Launchpad: Job Interviews & Public Speaking Mastery",
+      image: "./images/2025/ias-chapter/career-launchpad.png",
+      eventDate: "August 5, 2025",
+      report: "Led by Mr. Nijo M Joseph, a faculty member with extensive HR experience, this workshop focused on mastering job interviews and public speaking. The session provided students with real-world recruitment insights, covering techniques to manage stage fear, structure ideas, and answer common interview questions effectively. The interactive discussion helped participants build confidence and communication skills essential for campus placements and professional growth.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
