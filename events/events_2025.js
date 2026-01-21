@@ -55,6 +55,13 @@ $(document).ready(function () {
       eventDate: "October 18, 2025",
       report: "Held on October 18, 2025, this workshop introduced Arduino basics, spanning history, board components, and programming with the Arduino IDE. Participants engaged in hands-on demonstrations including LED control and sensor interfacing (Ultrasonic, DHT22, etc.). The session concluded with a smart streetlight project simulation using Tinkercad, offering practical insights into embedded systems.",
     },
+    {
+      chapter: "Main SB",
+      eventName: "ROBO-NAV",
+      image: "./images/2025/main-sb/robo-nav/img.png",
+      eventDate: "October, 2025",
+      report: "The IEEE Student Branch successfully conducted ROBO-NAV, a Line Follower Bot competition, as part of AITHRA 2025. Ten teams from across Kerala participated, showcasing innovative designs and precise control of their autonomous robots on a complex track. With a prize pool of ₹15,000, the event provided students with hands-on experience in robotics and automation challenges.",
+    },
 
     // CS Chapter Events
     // {
