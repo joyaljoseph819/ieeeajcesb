@@ -79,6 +79,12 @@ $(document).ready(function () {
       report: "The meeting was held to familiarise the secretaries with reports and minutes writing and where to upload them. Chethana Raj, Chair SB 2023 and Jesna Susan Reji, Secretary SB 2023, gave the new execom members an idea of how all of it works. The members were familiarised with using vTools and how to create and publish a report of an event or meeting in vTools. They were asked to contact their respective chairs for the login info and to start publishing the events as soon as each event was completed.",
     },
     {
+      eventName: "Alvida Farewell 2024",
+      image: "./images/2024/alvida-farewell/img.png",
+      eventDate: "9th May, 2024",
+      report: "IEEE SB AJCE organized 'Alvida Farewell 2024' on 9th May 2024 to bid a heartfelt goodbye to the graduating seniors. During the event, the seniors reflected on their journey and contributions to IEEE, while juniors and faculty expressed their gratitude. The farewell ended with a token distribution and group photos, marking a memorable send-off for the 2023 batch.",
+    },
+    {
       eventName: "Perspectives: A Debate Prep",
       image: "./images/2024/debate-prep/img.png",
       eventDate: "12th August, 2024",
