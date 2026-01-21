@@ -206,6 +206,13 @@ $(document).ready(function () {
       eventDate: "August 5, 2025",
       report: "Led by Mr. Nijo M Joseph, a faculty member with extensive HR experience, this workshop focused on mastering job interviews and public speaking. The session provided students with real-world recruitment insights, covering techniques to manage stage fear, structure ideas, and answer common interview questions effectively. The interactive discussion helped participants build confidence and communication skills essential for campus placements and professional growth.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "WINGS WITHOUT PILOTS: Entering the UAV Era",
+      image: "./images/2025/ias-chapter/wings-without-pilots.png",
+      eventDate: "August 28, 2025",
+      report: "Hosted in collaboration with IEEE SB AJCE and other student branches, this virtual session explored the evolving world of Unmanned Aerial Vehicles (UAVs). Leading student innovators from AROHA Drone Club, CUSAT, shared expertise on drone types, historical development, and practical applications in sectors like disaster management and agriculture. The session also delved into technical advancements in sensors and autonomous navigation, concluding with an engaging Q&A.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
