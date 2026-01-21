@@ -248,6 +248,13 @@ $(document).ready(function () {
       image: "./images/2025/wie-group/firewalled-garden.png",
       eventDate: "June 25 - July 5, 2025",
       report: "Launched as part of IEEE WIE Day 2025 celebrations, this poster designing competition themed \"Pioneering Safe Cyberspace\" aimed to raise awareness about cybersecurity. Participants created visual stories representing how technology and vigilance work hand-in-hand for digital security. The event concluded with the recognition of an outstanding design for its aesthetic clarity and alignment with the goal of securing cyberspace.",
+    },
+    {
+      chapter: "WIE Group",
+      eventName: "Nilavillakku – Illuminating Self-Reliance",
+      image: "./images/2025/wie-group/nilavillakku.png",
+      eventDate: "October 24, 2025",
+      report: "Dedicated to fostering women’s empowerment, this \"Women for Women\" series event involved Kudumbashree women in hands-on technical and sustainable learning. Participants engaged in eco-brick making, followed by practical sessions on electrical safety and appliance repair. A key highlight was a workshop where attendees built their own Mini Emergency LED Lamps, symbolizing self-reliance and boosting confidence in technical skills.",
     }
   ];
 
