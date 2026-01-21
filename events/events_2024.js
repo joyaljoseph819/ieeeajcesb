@@ -73,6 +73,12 @@ $(document).ready(function () {
       report: "IEEE SB AJCE’s Annual General Meeting was conducted on 19th March 2024 at Amal Jyothi College of Engineering. The meeting featured presidential addresses by college officials and esteemed chief guests. Certificates and awards were distributed to the executive committee and subcommittee members to honor their contributions. The event included a cake-cutting ceremony, report presentations from various chapters and affinity groups, the introduction of the new Executive Committee for 2024, and an experience-sharing session by outgoing members.",
     },
     {
+      eventName: "vTools Training Session",
+      image: "./images/2024/vtools-training/img.png",
+      eventDate: "March, 2024",
+      report: "The meeting was held to familiarise the secretaries with reports and minutes writing and where to upload them. Chethana Raj, Chair SB 2023 and Jesna Susan Reji, Secretary SB 2023, gave the new execom members an idea of how all of it works. The members were familiarised with using vTools and how to create and publish a report of an event or meeting in vTools. They were asked to contact their respective chairs for the login info and to start publishing the events as soon as each event was completed.",
+    },
+    {
       eventName: "Perspectives: A Debate Prep",
       image: "./images/2024/debate-prep/img.png",
       eventDate: "12th August, 2024",
