@@ -85,6 +85,12 @@ $(document).ready(function () {
       report: "IEEE SB AJCE organized 'Alvida Farewell 2024' on 9th May 2024 to bid a heartfelt goodbye to the graduating seniors. During the event, the seniors reflected on their journey and contributions to IEEE, while juniors and faculty expressed their gratitude. The farewell ended with a token distribution and group photos, marking a memorable send-off for the 2023 batch.",
     },
     {
+      eventName: "DLP – Intelligent Power Management and Control of Electric Drive in Electric Vehicles",
+      image: "./images/2024/dlp-session/img.png",
+      eventDate: "2024",
+      report: "The Distinguished Lecture by Dr. Rajesh Kumar on \"Intelligent Power Management and Control of Electric Drive in Electric Vehicles using Reinforcement Learning\" was highly insightful and well-received by attendees. The session sparked significant interest in the application of reinforcement learning to optimize power management in electric vehicles. It started with an introduction then it delved into the Markov decision process and much more. Participants expressed satisfaction with the depth of knowledge shared. Many attendees showed keen interest in further exploring this topic and proposed follow-up sessions or workshops to delve deeper into the subject. Overall, the lecture was engaging and impactful, setting the stage for future discussions.",
+    },
+    {
       eventName: "Perspectives: A Debate Prep",
       image: "./images/2024/debate-prep/img.png",
       eventDate: "12th August, 2024",
