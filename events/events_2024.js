@@ -91,6 +91,12 @@ $(document).ready(function () {
       report: "The Distinguished Lecture by Dr. Rajesh Kumar on \"Intelligent Power Management and Control of Electric Drive in Electric Vehicles using Reinforcement Learning\" was highly insightful and well-received by attendees. The session sparked significant interest in the application of reinforcement learning to optimize power management in electric vehicles. It started with an introduction then it delved into the Markov decision process and much more. Participants expressed satisfaction with the depth of knowledge shared. Many attendees showed keen interest in further exploring this topic and proposed follow-up sessions or workshops to delve deeper into the subject. Overall, the lecture was engaging and impactful, setting the stage for future discussions.",
     },
     {
+      eventName: "Skyborne Robotics",
+      image: "./images/2024/skyborne-robotics/img.png",
+      eventDate: "2024",
+      report: "The SIGHT Technical Group of IEEE SB AJCE conducted an offline session 'SKYBORNE ROBOTICS', featured Alwin Sibi, a 7th-semester EEE student of AJCE, and Dani Xavier, CTO at AdOn and IEEE SIGHT SBC AJCE Project Coordinator, as the key facilitators. Their combined expertise and passion for technology ensured that attendees gained a comprehensive understanding of drone navigation and control techniques. The event was successfully conducted with 41 participants.",
+    },
+    {
       eventName: "Perspectives: A Debate Prep",
       image: "./images/2024/debate-prep/img.png",
       eventDate: "12th August, 2024",
