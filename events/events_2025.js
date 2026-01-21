@@ -23,9 +23,9 @@ $(document).ready(function () {
     {
       chapter: "Main SB",
       eventName: "IDEA 2025",
-      image: "./images/2025/main-sb/idea2025.jpg",
-      eventDate: "March, 2025",
-      report: "Details about the IDEA 2025 event.",
+      image: "./images/2025/main-sb/idea2025.png",
+      eventDate: "August 2, 2025",
+      report: "The I.D.E.A (Innovate, Design, Execute, Achieve) Ideathon was successfully conducted on August 2nd, fostering creativity among 20 shortlisted teams. Participants from various domains pitched software and hardware solutions to a panel of IEEE Young Professionals. Top teams shared a prize pool of ₹25,000, marking a day of innovation and healthy competition.",
     },
     {
       chapter: "Main SB",
