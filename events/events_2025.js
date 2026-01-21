@@ -230,10 +230,10 @@ $(document).ready(function () {
     // WIE Group Events (unchanged)
     {
       chapter: "WIE Group",
-      eventName: "Pixel Perfect: Graphic Design Workshop",
-      image: "./images/2025/wie-group/pixel-perfect.jpg",
-      eventDate: "March 8, 2025",
-      report: "A hands-on workshop focused on creative graphic design techniques, empowering participants to bring their ideas to life through digital art."
+      eventName: "Pixel Perfect: UI/UX Workshop on Figma",
+      image: "./images/2025/wie-group/pixel-perfect.png",
+      eventDate: "March 19, 2025",
+      report: "Led by Abel Biju George, this interactive workshop introduced participants to core UI/UX principles and hands-on design using Figma. The session covered user-centric design concepts and included a live demonstration of building a sample app interface. Emphasizing accessibility, the event concluded with a Q&A session, providing students with practical, real-world design skills.",
     },
     {
       chapter: "WIE Group",
