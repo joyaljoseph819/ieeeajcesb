@@ -48,6 +48,13 @@ $(document).ready(function () {
       eventDate: "July 1, 2025",
       report: "The first Executive Committee (Execom) meeting of the year was held on July 1st, bringing together society chairs and team members. Guest Mr. Ruben Abraham (Chair, IEEE SB AJCE 2021) shared insights on effective branch management. Society chairs outlined future events and strategies, while the design team was recognized for their branding contributions. The meeting concluded as a productive start to the year's journey.",
     },
+    {
+      chapter: "Main SB",
+      eventName: "Virtual Arduino Simulation Workshop",
+      image: "./images/2025/main-sb/arduino-workshop/img.png",
+      eventDate: "October 18, 2025",
+      report: "Held on October 18, 2025, this workshop introduced Arduino basics, spanning history, board components, and programming with the Arduino IDE. Participants engaged in hands-on demonstrations including LED control and sensor interfacing (Ultrasonic, DHT22, etc.). The session concluded with a smart streetlight project simulation using Tinkercad, offering practical insights into embedded systems.",
+    },
 
     // CS Chapter Events
     // {
