@@ -83,6 +83,13 @@ $(document).ready(function () {
       eventDate: "April 20 - May 11, 2025",
       report: "IEEE CS SB AJCE conducted 'Yours Technically', a creative writing contest where students wrote love letters using technical terms. The two-round event ran from April 20th to May 11th, challenging participants to blend wit and engineering concepts. Winners received cash prizes and certificates, celebrating the poetic side of technology.",
     },
+    {
+      chapter: "CS Chapter",
+      eventName: "Emerging Tech Alert",
+      image: "./images/2025/cs-chapter/tech-alert/img.png",
+      eventDate: "June, 2025",
+      report: "The June edition of 'Emerging Tech Alert' spotlighted Neuralink, Elon Musk’s BCI company, and its first human brain implant. The series introduced students to cutting-edge innovations like direct neural communication, sparking discussions on the medical applications and ethical dimensions of such transformative technologies, reinforcing the club's commitment to nurturing a future-ready mindset.",
+    },
 
     // CS Chapter Events
     // {
