@@ -213,6 +213,13 @@ $(document).ready(function () {
       eventDate: "August 28, 2025",
       report: "Hosted in collaboration with IEEE SB AJCE and other student branches, this virtual session explored the evolving world of Unmanned Aerial Vehicles (UAVs). Leading student innovators from AROHA Drone Club, CUSAT, shared expertise on drone types, historical development, and practical applications in sectors like disaster management and agriculture. The session also delved into technical advancements in sensors and autonomous navigation, concluding with an engaging Q&A.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "IGNITE: Membership Development (MD) Session",
+      image: "./images/2025/ias-chapter/ignite-membership.png",
+      eventDate: "August 23, 2025",
+      report: "Organized collaboratively by IEEE SB AJCE, MACE, and CUSAT, this session aimed to inspire students about the benefits of IEEE membership and volunteering. Speakers Sivapriya Sivadasan and Aleena Mathews shared their personal journeys, highlighting how IEEE involvement builds leadership, networking, and technical skills. The interactive discussion covered grants and professional growth opportunities, motivating 55 attendees to take active roles within IEEE societies.",
+    },
 
     // // PES Chapter Events (unchanged)
     // {
