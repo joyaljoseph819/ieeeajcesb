@@ -69,6 +69,13 @@ $(document).ready(function () {
       eventDate: "August 21, 2025",
       report: "SHESPARK, conducted on August 21st, aimed to ignite a passion for electronics among female students. The event featured an interactive session by Mr. Nijo M Joseph (Asst. Prof, AJCE) fostering community and confidence. This was followed by a hands-on circuit building workshop led by Mr. Deva Prakash (IEEE SSCS Kerala), where 33 students successfully designed and tested their own circuits.",
     },
+    {
+      chapter: "CS Chapter",
+      eventName: "Ctrl+H: Key to Hackathon",
+      image: "./images/2025/cs-chapter/ctrl-h/img.png",
+      eventDate: "March 24, 2025",
+      report: "IEEE CS SB AJCE hosted 'Ctrl+H: Key to Hackathon', a Google Meet session featuring Joel John (SDE Intern @ IBM). Joel introduced the concept of hackathons, used polls for interactivity, and shared insights on teamwork, skill-building, and his own success in the IBM WatsonX Challenge. The talk was inspiring, guiding students on how to leverage hackathons for career growth.",
+    },
 
     // CS Chapter Events
     // {
