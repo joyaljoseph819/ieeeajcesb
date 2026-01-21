@@ -30,9 +30,9 @@ $(document).ready(function () {
     {
       chapter: "Main SB",
       eventName: "Precision in Professional Writing",
-      image: "./images/2025/main-sb/professional-writing.jpg",
-      eventDate: "April, 2025",
-      report: "A workshop focused on developing strong professional writing skills.",
+      image: "./images/2025/main-sb/professional-writing.png",
+      eventDate: "June 4, 2025",
+      report: "Introduced by Chair Josna Clare Jolly, this Google Meet session featured Ms. Ardra Saji focusing on professional event documentation and vTools reporting. She emphasized the importance of accuracy and consistency, sharing valuable tips for maintaining professionalism in IEEE communications. The session also explored collaborative opportunities with the IEEE Kerala Section to maximize impact, concluding as a highly insightful and productive evening for all IEEE SB AJCE Execom members.",
     },
     {
       chapter: "Main SB",
