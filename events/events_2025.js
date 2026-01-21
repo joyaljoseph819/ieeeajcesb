@@ -41,6 +41,13 @@ $(document).ready(function () {
       eventDate: "September, 2025",
       report: "An event to help students develop better habits for personal and academic growth.",
     },
+    {
+      chapter: "Main SB",
+      eventName: "First Execom Meeting",
+      image: "./images/2025/main-sb/execom-first-meet.png",
+      eventDate: "July 1, 2025",
+      report: "The first Executive Committee (Execom) meeting of the year was held on July 1st, bringing together society chairs and team members. Guest Mr. Ruben Abraham (Chair, IEEE SB AJCE 2021) shared insights on effective branch management. Society chairs outlined future events and strategies, while the design team was recognized for their branding contributions. The meeting concluded as a productive start to the year's journey.",
+    },
 
     // CS Chapter Events
     // {
