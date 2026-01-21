@@ -62,6 +62,13 @@ $(document).ready(function () {
       eventDate: "October, 2025",
       report: "The IEEE Student Branch successfully conducted ROBO-NAV, a Line Follower Bot competition, as part of AITHRA 2025. Ten teams from across Kerala participated, showcasing innovative designs and precise control of their autonomous robots on a complex track. With a prize pool of ₹15,000, the event provided students with hands-on experience in robotics and automation challenges.",
     },
+    {
+      chapter: "SSCS Chapter",
+      eventName: "SHESPARK",
+      image: "./images/2025/sscs-chapter/shespark/img.png",
+      eventDate: "August 21, 2025",
+      report: "SHESPARK, conducted on August 21st, aimed to ignite a passion for electronics among female students. The event featured an interactive session by Mr. Nijo M Joseph (Asst. Prof, AJCE) fostering community and confidence. This was followed by a hands-on circuit building workshop led by Mr. Deva Prakash (IEEE SSCS Kerala), where 33 students successfully designed and tested their own circuits.",
+    },
 
     // CS Chapter Events
     // {
