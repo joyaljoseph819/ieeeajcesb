@@ -241,6 +241,13 @@ $(document).ready(function () {
       eventDate: "October 3, 2025",
       report: "In the second workshop of SkillSprint 2025, Abel Biju George introduced the field of prompt engineering, teaching students how to communicate effectively with AI systems. The session covered various prompt styles—including role-based and step-by-step instructions—and demonstrated their practical use in academics, coding, and creative workflows. By emphasizing productivity and ethical usage, the workshop equipped participants with essential skills for an AI-driven technological landscape.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: UI/UX Unlocked (Figma Basics)",
+      image: "./images/2025/ias-chapter/uiux-unlocked.png",
+      eventDate: "October 7, 2025",
+      report: "Conducted by Niveditha K Narayanan (S3 AD), the third workshop of SkillSprint 2025 introduced participants to the fundamentals of UI/UX design. The session covered core concepts such as user-centered design, color theory, and visual hierarchy, using real-world examples to distinguish between effective and poor design practices. Through a hands-on interface redesign activity, attendees gained practical insights into design tools and creative problem-solving in the digital product landscape.",
+    },
 
 
 
