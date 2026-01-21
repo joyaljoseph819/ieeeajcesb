@@ -234,6 +234,15 @@ $(document).ready(function () {
       eventDate: "September 29, 2025",
       report: "As the inaugural session of SkillSprint 2025, this workshop led by Aby Mathew (S3 IT) introduced chess as a strategic tool for decision-making. Participants explored fundamental opening strategies, piece coordination, and foresight while discovering parallels between chess and real-life problem-solving. The interactive session combined theory with live game analysis, effectively setting a tone of engaging and impactful learning for the series.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: The Art of Asking AI",
+      image: "./images/2025/ias-chapter/art-of-asking-ai.png",
+      eventDate: "October 3, 2025",
+      report: "In the second workshop of SkillSprint 2025, Abel Biju George introduced the field of prompt engineering, teaching students how to communicate effectively with AI systems. The session covered various prompt styles—including role-based and step-by-step instructions—and demonstrated their practical use in academics, coding, and creative workflows. By emphasizing productivity and ethical usage, the workshop equipped participants with essential skills for an AI-driven technological landscape.",
+    },
+
+
 
     // // PES Chapter Events (unchanged)
     // {
@@ -286,7 +295,7 @@ $(document).ready(function () {
     },
     {
       chapter: "WIE Group",
-      eventName: "Nilavillakku – Illuminating Self-Reliance",
+      eventName: "Nilavillakku: Illuminating Self-Reliance",
       image: "./images/2025/wie-group/nilavillakku.png",
       eventDate: "October 24, 2025",
       report: "Dedicated to fostering women’s empowerment, this \"Women for Women\" series event involved Kudumbashree women in hands-on technical and sustainable learning. Participants engaged in eco-brick making, followed by practical sessions on electrical safety and appliance repair. A key highlight was a workshop where attendees built their own Mini Emergency LED Lamps, symbolizing self-reliance and boosting confidence in technical skills.",
