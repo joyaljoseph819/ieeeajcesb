@@ -76,6 +76,13 @@ $(document).ready(function () {
       eventDate: "March 24, 2025",
       report: "IEEE CS SB AJCE hosted 'Ctrl+H: Key to Hackathon', a Google Meet session featuring Joel John (SDE Intern @ IBM). Joel introduced the concept of hackathons, used polls for interactivity, and shared insights on teamwork, skill-building, and his own success in the IBM WatsonX Challenge. The talk was inspiring, guiding students on how to leverage hackathons for career growth.",
     },
+    {
+      chapter: "CS Chapter",
+      eventName: "Yours Technically: A Techie’s Love Confession",
+      image: "./images/2025/cs-chapter/yours-technically/img.png",
+      eventDate: "April 20 - May 11, 2025",
+      report: "IEEE CS SB AJCE conducted 'Yours Technically', a creative writing contest where students wrote love letters using technical terms. The two-round event ran from April 20th to May 11th, challenging participants to blend wit and engineering concepts. Winners received cash prizes and certificates, celebrating the poetic side of technology.",
+    },
 
     // CS Chapter Events
     // {
