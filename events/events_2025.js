@@ -289,6 +289,13 @@ $(document).ready(function () {
       eventDate: "June 25, 2025",
       report: "Hosted by IEEE SB AJCE SIGHT, this session featured Prof. Gayathri Manikutty (Vice Chair, IEEE SIGHT Kerala Section) discussing the Project-Based Learning (PBL) approach. The session introduced PBL as a student-driven method for solving real-world problems through a process of understanding, ideating, and refinement. Emphasizing creativity, ethics, and critical thinking, the talk highlighted how building mockups and engaging in makeathons helps students develop essential research and social skills.",
     },
+    {
+      chapter: "SIGHT Group",
+      eventName: "ENCORE 2.0: SIGHT Membership Development Session & Project Guidance",
+      image: "./images/2025/sight-group/encore-sight.png",
+      eventDate: "August 16, 2025",
+      report: "Part of ENCORE 2.0, this session featured Mr. Abhinav Rajeev (Secretary, IEEE SIGHT Kerala Section) who introduced the mission and activities of the Special Interest Group on Humanitarian Technology (SIGHT). The talk focused on SIGHT membership benefits, volunteering opportunities, and humanitarian initiatives. Mr. Rajeev also provided practical guidance on planning and executing high-impact projects that address real-world challenges, encouraging innovation and collaboration within the IEEE SIGHT community.",
+    },
 
     // // SSCS Chapter Events (unchanged)
     // {
