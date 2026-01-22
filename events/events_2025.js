@@ -255,6 +255,20 @@ $(document).ready(function () {
       eventDate: "October 15, 2025",
       report: "Led by Steve Sony (S3 AD), the fourth workshop of SkillSprint 2025 introduced participants to the transformative power of no-code automation. The session focused on streamlining repetitive tasks using the N8N platform, featuring a live demonstration of building automated workflows with triggers and integrations. By showcasing practical applications in data handling and personal productivity, the workshop highlighted automation as an accessible and essential skill for both technical and non-technical enthusiasts.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: AppCraft with Flutter (Flutter Development)",
+      image: "./images/2025/ias-chapter/appcraft-flutter.png",
+      eventDate: "October 22, 2025",
+      report: "Wrapped up the SkillSprint 2025 series, this final workshop led by Lena Mathew (S5 IT) provided a practical entry point into cross-platform mobile app development using Flutter. Participants learned the advantages of Flutter's single codebase, explored basic widget structures, and observed a live UI-building demonstration. The session emphasized conceptual clarity and career opportunities, inspiring students to transform their creative ideas into functional mobile applications.",
+    },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: AppCraft with Flutter",
+      image: "./images/2025/ias-chapter/appcraft-flutter.png",
+      eventDate: "October 22, 2025",
+      report: "The SkillSprint 2025 series concluded with an engaging workshop on Flutter app development, led by Lena Mathew (S5 IT). The session provided a practical introduction to cross-platform development, covering Flutter’s architecture, widgets, and layout systems. Through a live UI-building demonstration, participants learned how to construct functional application interfaces with a single codebase. The workshop motivated students to explore mobile development further by highlighting career paths and the versatility of the Flutter framework.",
+    },
 
 
 
