@@ -281,14 +281,14 @@ $(document).ready(function () {
     //   report: "A seminar on the challenges and future of integrating renewable energy into existing power grids.",
     // },
 
-    // // SIGHT Group Events (unchanged)
-    // {
-    //   chapter: "SIGHT Group",
-    //   eventName: "Tech for Social Good Hackathon",
-    //   image: "./images/2025/sight-group/hackathon.jpg",
-    //   eventDate: "June, 2025",
-    //   report: "A hackathon dedicated to creating technological solutions for community and humanitarian problems.",
-    // },
+    // SIGHT Group Events
+    {
+      chapter: "SIGHT Group",
+      eventName: "Classrooms to Communities: Project-Based Learning (PBL) - STEM for Social Change",
+      image: "./images/2025/sight-group/pbl-workshop.png",
+      eventDate: "June 25, 2025",
+      report: "Hosted by IEEE SB AJCE SIGHT, this session featured Prof. Gayathri Manikutty (Vice Chair, IEEE SIGHT Kerala Section) discussing the Project-Based Learning (PBL) approach. The session introduced PBL as a student-driven method for solving real-world problems through a process of understanding, ideating, and refinement. Emphasizing creativity, ethics, and critical thinking, the talk highlighted how building mockups and engaging in makeathons helps students develop essential research and social skills.",
+    },
 
     // // SSCS Chapter Events (unchanged)
     // {
