@@ -248,6 +248,13 @@ $(document).ready(function () {
       eventDate: "October 7, 2025",
       report: "Conducted by Niveditha K Narayanan (S3 AD), the third workshop of SkillSprint 2025 introduced participants to the fundamentals of UI/UX design. The session covered core concepts such as user-centered design, color theory, and visual hierarchy, using real-world examples to distinguish between effective and poor design practices. Through a hands-on interface redesign activity, attendees gained practical insights into design tools and creative problem-solving in the digital product landscape.",
     },
+    {
+      chapter: "IAS Chapter",
+      eventName: "SkillSprint 2025: No-Code Power - N8N Automation",
+      image: "./images/2025/ias-chapter/nocode-power.png",
+      eventDate: "October 15, 2025",
+      report: "Led by Steve Sony (S3 AD), the fourth workshop of SkillSprint 2025 introduced participants to the transformative power of no-code automation. The session focused on streamlining repetitive tasks using the N8N platform, featuring a live demonstration of building automated workflows with triggers and integrations. By showcasing practical applications in data handling and personal productivity, the workshop highlighted automation as an accessible and essential skill for both technical and non-technical enthusiasts.",
+    },
 
 
 
